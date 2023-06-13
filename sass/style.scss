@@ -61,4 +61,50 @@ body {
         }
     }
 
+    .minute {
+        position: absolute;
+
+        .minutes {
+            width: 190px;
+            height: 190px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            border-radius: 50%;
+
+            &:before {
+                content: '';
+                position: absolute;
+                width: 4px;
+                height: 90px;
+                background: white;
+                z-index: 11;
+                border-radius: 6px 6px 0 0;
+            }
+        }
+    }
+
+    .second {
+        position: absolute;
+
+        .seconds {
+            width: 230px;
+            height: 230px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            border-radius: 50%;
+
+            &:before {
+                content: '';
+                position: absolute;
+                width: 2px;
+                height: 150px;
+                background: white;
+                z-index: 12;
+                border-radius: 6px 6px 0 0;
+            }
+        }
+    }
+
 }

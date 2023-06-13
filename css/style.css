@@ -53,4 +53,44 @@ body {
   background: #ff105e;
   z-index: 10;
   border-radius: 6px 6px 0 0;
+}
+.clock .minute {
+  position: absolute;
+}
+.clock .minute .minutes {
+  width: 190px;
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-radius: 50%;
+}
+.clock .minute .minutes:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 90px;
+  background: white;
+  z-index: 11;
+  border-radius: 6px 6px 0 0;
+}
+.clock .second {
+  position: absolute;
+}
+.clock .second .seconds {
+  width: 230px;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-radius: 50%;
+}
+.clock .second .seconds:before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 150px;
+  background: white;
+  z-index: 12;
+  border-radius: 6px 6px 0 0;
 }/*# sourceMappingURL=style.css.map */
