@@ -119,18 +119,18 @@ body {
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 
-.hand.hour-hand {
+.hand.hours {
   width: 30%;
   z-index: 3;
 }
 
-.hand.min-hand {
+.hand.minutes {
   height: 3px;
   z-index: 10;
   width: 40%;
 }
 
-.hand.second-hand {
+.hand.seconds {
   background: #ee791a;
   width: 45%;
   height: 2px;
