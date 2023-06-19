@@ -85,7 +85,8 @@ body {
   left: 10%;
   width: 80%;
   height: 80%;
-  background: #4a4a4a;
+  background: #282828;
+  /* background: #4a4a4a; */
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
@@ -102,7 +103,8 @@ body {
   border-radius: 50%;
   margin-left: -10px;
   margin-top: -10px;
-  background: #6962b3;
+  background: #4d4b63;
+  /* background: #6962b3; */
   z-index: 11;
 }
 
@@ -134,4 +136,6 @@ body {
   background: #ee791a;
   width: 45%;
   height: 2px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
