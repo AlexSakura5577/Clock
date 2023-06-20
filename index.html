@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
     <title>Clock</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,16 +13,17 @@
 <body>
 
     <div class="clock">
-        <div class="hour">
-            <div class="hours"></div>
-        </div>
+        <div class="outer-clock-face">
+            <div class="marking marking-one"></div>
+            <div class="marking marking-two"></div>
+            <div class="marking marking-three"></div>
+            <div class="marking marking-four"></div>
 
-        <div class="minute">
-            <div class="minutes"></div>
-        </div>
-
-        <div class="second">
-            <div class="seconds"></div>
+            <div class="inner-clock-face">
+                <div class="hand hours"></div>
+                <div class="hand minutes"></div>
+                <div class="hand seconds"></div>
+            </div>
         </div>
     </div>
 
