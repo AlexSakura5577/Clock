@@ -1,122 +1,3 @@
-// analog 1
-// * {
-//     margin: 0;
-//     padding: 0;
-//     box-sizing: border-box;
-// }
-
-// body {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     min-height: 100vh;
-//     width: 100%;
-//     background: #091921;
-// }
-
-// .clock {
-//     width: 350px;
-//     height: 350px;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     background: url('../img/clock.png') center / cover;
-//     border: 4px solid #091921;
-//     // border: 4px solid #00070a;
-//     border-radius: 50%;
-//     box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05),
-//         inset 0 -15px 15px rgba(255, 255, 255, 0.05),
-//         0 15px 15px rgba(0, 0, 0, 0.3),
-//         inset 0 15px 15px rgba(0, 0, 0, 0.3);
-//     position: relative;
-
-//     &:before {
-//         content: '';
-//         position: absolute;
-//         width: 15px;
-//         height: 15px;
-//         border-radius: 50%;
-//         background: #ff0000;
-//         z-index: 111;
-//     }
-
-//     .hour {
-//         position: absolute;
-
-//         .hours {
-//             width: 160px;
-//             height: 160px;
-//             // width: 190px;
-//             // height: 190px;
-//             display: flex;
-//             justify-content: center;
-//             position: relative;
-//             border-radius: 50%;
-
-//             &:before {
-//                 content: '';
-//                 position: absolute;
-//                 width: 8px;
-//                 height: 80px;
-//                 // height: 110px;
-//                 background: white;
-//                 z-index: 10;
-//                 border-radius: 6px 6px 0 0;
-//             }
-//         }
-//     }
-
-//     .minute {
-//         position: absolute;
-
-//         .minutes {
-//             width: 190px;
-//             height: 190px;
-//             display: flex;
-//             justify-content: center;
-//             position: relative;
-//             border-radius: 50%;
-
-//             &:before {
-//                 content: '';
-//                 position: absolute;
-//                 width: 4px;
-//                 height: 90px;
-//                 background: white;
-//                 z-index: 11;
-//                 border-radius: 6px 6px 0 0;
-//             }
-//         }
-//     }
-
-//     .second {
-//         position: absolute;
-
-//         .seconds {
-//             // width: 230px;
-//             // height: 230px;
-//             width: 280px;
-//             height: 280px;
-//             display: flex;
-//             justify-content: center;
-//             position: relative;
-//             border-radius: 50%;
-
-//             &:before {
-//                 content: '';
-//                 position: absolute;
-//                 width: 2px;
-//                 // height: 150px;
-//                 height: 170px;
-//                 background: #ff0000;
-//                 z-index: 12;
-//                 border-radius: 6px 6px 0 0;
-//             }
-//         }
-//     }
-
-// }
-
 // analog 2
 html {
     background: #282828;
@@ -127,6 +8,7 @@ html {
 body {
     margin: 0;
     font-size: 2rem;
+    justify-content: center;
     display: flex;
     flex: 1;
     min-height: 100vh;
@@ -169,13 +51,14 @@ body {
     position: absolute;
     width: 5px;
     height: 100%;
-    background: #1df52f;
+    background: #27ff39;
     z-index: 0;
     left: 49%;
 }
 
 .outer-clock-face .marking {
-    background: #bdbdcb;
+    // background: #bdbdcb;
+    background: #42fcc7;
     width: 3px;
 }
 
@@ -209,8 +92,8 @@ body {
     left: 10%;
     width: 80%;
     height: 80%;
-    // background: #282828;
-    background: #4a4a4a;
+    background: #282828;
+    // background: #4a4a4a;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-radius: 100%;
@@ -240,7 +123,8 @@ body {
     width: 50%;
     right: 50%;
     height: 2%;
-    background: #61afff;
+    // background: #61afff;
+    background: #1a76d1;
     position: absolute;
     top: 50%;
     border-radius: 6px;
